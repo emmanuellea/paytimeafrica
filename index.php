@@ -99,6 +99,27 @@ $(window).scroll(function() {
 		width: 100px;
 		height: 80px;
 	}
+	
+	.item img{
+
+}
+	
+	table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
   
 
 </style>
@@ -110,7 +131,7 @@ $(window).scroll(function() {
 
 
 
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-inverse">
   <div class="container">
       
       <div class="navbar-header">
@@ -180,7 +201,7 @@ $(window).scroll(function() {
 			               <h1>We are the leading online market for quality affordable schools</h1>
 			                <p>Focused on promoting payment of manageable school fees installments (Daily, Weekly, Monthly)</p>
 						
-						<a href="what-we-do.php"><button class="btn btn-primary">Learn more <span class="fa fa-arrow-right"></span></button></a>
+						<a href="what-we-do.php"><button class="btn btn-primary">Learn more</button></a>
 
 			         </div>	
 				    </div>
@@ -199,6 +220,8 @@ $(window).scroll(function() {
                        <div class="media-body">
                             <h4 class="media-heading">MARKETING</h4>
                             <p>We market and promote private educational institutions across Africa.</p>
+						   <a href="what-we-do.php"><button class="btn btn-primary btn-learn">Learn more</button></a>
+
 						    						
                        </div>
                       </div>
@@ -214,6 +237,8 @@ $(window).scroll(function() {
                        <div class="media-body">
                             <h4 class="media-heading">ENHANCEMENT</h4>
                             <p>We enhance School Fees Payment in all our subscribed schools.</p>
+						   <a href="what-we-do.php"><button class="btn btn-primary btn-learn">Learn more </button></a>
+
 						    
                        </div>
                       </div>
@@ -230,6 +255,8 @@ $(window).scroll(function() {
                        <div class="media-body">
                             <h4 class="media-heading">ADVOCACY</h4>
                             <p>We advocate for Quality education for all.</p>
+						   <a href="what-we-do.php"><button class="btn btn-primary btn-learn">Learn more</button></a>
+
 						     
                        </div>
                       </div>
@@ -642,44 +669,42 @@ and iOS on the App Store</p>
 		</div>
 	</section>
 	
-	
 	<section id="contact-us">
-		
 		<div class="container">
-			<div class="row">
-				
-		<div class="send_message text-center">
+			<div class="send-message text-center">
 			<h1>How can we help you?</h1>
 			<h3>Send us a message</h3>
 		</div>
 			
-					<div id="message">
-						
-						   <form method="post" onSubmit="return submitdata();" autocomplete="off">
-							   <div class="row">
-								   <div class="col-md-6 col-sm-12 col-xs-12">
-									   
-									   <div class="form-group">
+			
+				<form method="post" action=""  autocomplete="off">
+					
+					
+					<div class="row">
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<div class="form-group">
                                             <label for="email">First Name</label>
                                          <input type="text" class="form-control" name="fname" id="fname" placeholder="First Name" maxlength="100">
                                        </div>
-							 
-									   
-								   </div>
-								   <div class="col-md-6 col-sm-12 col-xs-12">
-									   
-									   <div class="form-group">
+					</div>
+					<div class="col-md-6 col-sm-12 col-xs-12">
+						<div class="form-group">
                                             <label for="lname">Last Name</label>
                                          <input type="text" class="form-control" name="lname" id="lname" placeholder="Last Name" maxlength="100">
                                        </div>
-							 
-									   
-								   </div>
-							   </div>
-							   
-							   <div class="row">
-    
-                             <div class="form-group">
+					</div>
+						
+					
+					</div>
+					
+					
+				
+					
+					<div class="row">
+						
+						<div class="col-md-12 col-sm-12 col-xs-12">
+						
+						 <div class="form-group">
                                  <label for="email">Your email</label>
                                 <input type="email" class="form-control" name="email" id="email" placeholder="Email Address" maxlength="100">
                             </div>
@@ -693,164 +718,246 @@ and iOS on the App Store</p>
                       <br>
     
                       <input type="submit" class="btn btn-warning btn-block" value="Send Message" name="submit" id="send_data">
+					
+						
 					</div>
-   
-                      </form>
+                   
 					</div>
-				
-				<div class="row">
-				
-				<div class="col-md-6 col-sm-12 col-xs-12">
+					
+				</form>
+			
+		</div>
+	</section>
+	
+	
+	<!------------------------------
+	
+	<section id="site_map">
+		<div class="container">
+			 <div class="send_message text-center">
+			<h1>Our Address</h1>
+	
+		    </div>
+			
+			<div class="row">
+				<div class="col-md-6 col-sm-12 col-xs-12">						
 					
 					<div class="contact-address">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7979.4804445735645!2d32.750319!3d0.358494!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2368860ed90ef7cf!2sMuzza%20Hotel!5e0!3m2!1sen!2sug!4v1570187177881!5m2!1sen!2sug" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-				
-
-						<br></br>
-					         
-					       <h4>UGANDA</h4>
+						
+					
+						
+						     <h4>UGANDA</h4>
 						    <p>Muzza Complex 2nd Floor, Suite s8-s9 Plot 39, Jinja Road, mukono</p>
                             <p>P.O.Box 286, Kampala, Uganda</p>
 					        <p>Telephone: +256-200-905-141</p>
 					        <p>Mobile: +256-700-505-000</p>
 						
+						
+					
+					      <br></br>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7979.4804445735645!2d32.750319!3d0.358494!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2368860ed90ef7cf!2sMuzza%20Hotel!5e0!3m2!1sen!2sug!4v1570187177881!5m2!1sen!2sug" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+					         
+					      
 					</div>
-	              </div>
-	
-	             	<div class="col-md-6 col-sm-12 col-xs-12">
+					
+				</div>
+				<div class="col-md-6 col-sm-12 col-xs-12">
 					
 					<div class="contact-address">
 						
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5770.360590077611!2d-79.414337!3d43.686015!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x35ce134ca6b38946!2sThe%20Heathview!5e0!3m2!1sen!2sug!4v1570187394105!5m2!1sen!2sug" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-						
-						<br></br>
+		
 				
 				         <h4>CANADA</h4>
 						<p>The Heathview 2504 320 Tweedsmuir Avenue M5P 2Y3 Toronto, Ontario Canada</p>
 						<p>Telephone: +1-647-377-8463</p>
 						<p>Email: info@paytimeafrica.com</p>
+                       
+						
+						<br></br>
+						
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5770.360590077611!2d-79.414337!3d43.686015!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x35ce134ca6b38946!2sThe%20Heathview!5e0!3m2!1sen!2sug!4v1570187394105!5m2!1sen!2sug" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 					
 					</div>
-				</div>
-		        </div>
+			</div>
 			</div>
 		</div>
-		
 	</section>
 
 
+--------------------------------->
 
-   <section id="get-involved">
-		 <div class="container">
-			  <div class="row">
-				  <div class="education text-center">
+			 
+			 
+	<section id="get-involved">
+		<div class="container  text-center">
+			
+			<div class="education">
 					  <h1>Give Education</h1>
 					  <p>100% of online donations go towards educating children.</p>
 					  <h3>Ways to give</h3>
 				  </div>
-					  
-					  <div class="col-md-6 col-sm-12 col-xs-12">
-						   <div class="ways_to_give ">
-							   <img src="images/blissful-Kid-1.jpg" class="img-responsive wow fadeInLeft" />
-							   <h3>Sponsorships</h3>
+			
+			<div class="row">
+				<div class="col-md-1 col-sm-12 col-xs-12"></div>
+				<div class="col-md-10 col-sm-12 col-xs-12">
+					<div class="owl-carousel owl-theme">
+						<div class="item">
+							<img src="images/unnamed.png" class="img-responsive" />
+							   <h4>Sponsorships</h4>
 							   <p>Sponsoring a child is a personal way to show God’s love to a child in need.</p>
-						  </div>
-						  
-				  </div>
-				      <div class="col-md-6 col-sm-12 col-xs-12">
-						  <div class="ways_to_give ">
-							  
-							  <img src="images/Hausziege_04.jpg" class="img-responsive wow fadeInRight">
-							  <h3>Gift Catalog</h3>
+						</div>
+					
+					    <div class="item">
+							<img src="images/epay_sample.png" class="img-responsive" />
+							  <h4>Gift Catalog</h4>
 							  <p>Power up your impact by giving gifts that multiply or donate in someone’s honor.</p>
 							  
-						  </div>
-				  </div>
-					  
-			 </div>
+						</div>
+						
+						<div class="item">
+							<img src="images/feature-image.png" class="img-responsive" />
+							  <h4>Gift Catalog</h4>
+							  <p>Power up your impact by giving gifts that multiply or donate in someone’s honor.</p>
+							
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-md-1 col-sm-12 col-xs-12"></div>
+			</div>
+		</div>
+	</section>
+
 			 
-			 
-			 <div class="row">
+			 <section id="payment">
+				 <div class="container">			
+					 
+					 
+					 <div class="row">
 				 <div class="col-md-12">
 					 <div class="payment-detail">
+						 
 						 <h3>Payment Details</h3>
 						 
-						 <div class="form-group">
-                             <label for="disabledInput" class="col-sm-4 control-label">BANK NAME:</label>
-                               <div class="col-sm-8"> 
-								    <label for="disabledInput">TD CANADA TRUST</label>
-                               </div>
-						 </div>
-						 <div class="form-group">
-                             <label for="disabledInput" class="col-sm-4 control-label">ACCOUNT NAME:</label>
-                               <div class="col-sm-8"> 
-								    <label for="disabledInput">PAY TIME AFRICA INC</label>
-                               </div>
-						 </div>
 						 
-						 <div class="form-group">
-                             <label for="disabledInput" class="col-sm-4 control-label">ACCOUNT NUMBER:</label>
-                               <div class="col-sm-8"> 
-								    <label for="disabledInput">5225189</label>
-                               </div>
-						 </div>
 						 
-						 <div class="form-group">
-                             <label for="disabledInput" class="col-sm-4 control-label">TRANSIT NO:</label>
-                               <div class="col-sm-8"> 
-								    <label for="disabledInput">17602</label>
-                               </div>
-						 </div>
+						 <table>
+  <tr>
+    <td>BANK NAME:</td>
+    <td>TD CANADA TRUST</td>
+  </tr>
+  <tr>
+    <td>ACCOUNT NAME:</td>
+    <td>PAY TIME AFRICA INC</td>
+  </tr>
+							 
+  <tr>
+    <td>ACCOUNT NUMBER:</td>
+    <td>5225189</td>
+  </tr>
+  <tr>
+    <td>TRANSIT NO:</td>
+    <td>17602</td>
+  </tr>
+  <tr>
+    <td>INSTITUTION NO:</td>
+    <td>004</td>
+</tr>
+							 
+							 <tr>
+    <td>SWIFT CODE:</td>
+    <td>TDOMCATTTR</td>
+</tr>
+							 <tr>
+    <td>BRANCH ADDRESS:</td>
+    <td>510 ST.CLAIR AVENUE WEST TORONTO ONTARIO M 6C1A2</td>
+</tr>
+</table>
 						 
-						 <div class="form-group">
-                             <label for="disabledInput" class="col-sm-4 control-label">INSTITUTION NO:</label>
-                               <div class="col-sm-8"> 
-								    <label for="disabledInput">004</label>
-                               </div>
-						 </div>
-						 
-						  <div class="form-group">
-                             <label for="disabledInput" class="col-sm-4 control-label">SWIFT CODE:</label>
-                               <div class="col-sm-8"> 
-								    <label for="disabledInput">TDOMCATTTR</label>
-                               </div>
-						 </div>
-						 
-						  <div class="form-group">
-                             <label for="disabledInput" class="col-sm-4 control-label">BRANCH ADDRESS:</label>
-                               <div class="col-sm-8"> 
-								    <label for="disabledInput">510 ST.CLAIR AVENUE WEST TORONTO ONTARIO M 6C1A2</label>
-                               </div>
-						 </div>
-
+  
 				 </div>
 			 </div>
 		</div>
-	</section>
-	
-	
-	<section id="last-footer">
-		<div class="container text-center">
-			<img src="images/log.png" />
-			
-			<div id="footer-address">
-				<h4>UGANDA</h4>
-			    <p>Muzza Complex 2nd Floor, Suite s8-s9 Plot 39, Jinja Road, mukono</p>
-                <p>P.O.Box 286, Kampala, Uganda</p>
-			</div>
-			
-			 <div id="social">
-				 <a href="https://tinyurl.com/paytime-Africa-Facebook-Page;" > <i class="fa fa-facebook-f" id="border"></i></a>
-                <a href="" > <i class="fa fa-twitter" id="border"></i></a>
-				<a href="" > <i class="fa fa-youtube" id="border"></i></a>
-                <a href="" > <i class="fa fa-instagram" id="border"></i></a>
-
-            </div>
-			 <p>Terms and privacy policy</p>
-			<p>Copyright @2019 - PayTime Africa Limited</p>
-			</div>
+					 
 		</div>
+
 	</section>
+
+
+
+   <section id="footer">
+	   <div class="container">
+		   <div class="dow">
+			   <div class="row">
+				   <div class="col-md-4 col-sm-4 col-xs-4">
+					   <img src="images/log.png" class="log"/>
+				   </div>
+				   <div class="col-md-4 col-sm-4 col-xs-4">
+					   
+					   <div class="foot-links">
+						
+						<a href="#about-us"><li>About Us</li></a>
+					   <a href="#product"><li>Services</li></a>
+					   <a href="#how-it-works"><li>How it works</li></a>
+					   <a href="#contact-us"><li>Contact us</li></a>
+					   
+					  </div>
+				   </div>
+				   <div class="col-md-4 col-sm-4 col-xs-4">
+					   
+					   <div id="social">
+						   <h4>Join Us</h4>
+				            <a href="https://tinyurl.com/paytime-Africa-Facebook-Page;" > <i class="fa fa-facebook-f" id="border"></i></a>
+                            <a href="" > <i class="fa fa-twitter" id="border"></i></a>
+				            <a href="" > <i class="fa fa-youtube" id="border"></i></a>
+                            <a href="" > <i class="fa fa-instagram" id="border"></i></a>
+
+                      </div>
+				   </div>
+			   </div>
+			   <hr>
+	
+			   <div class="row">
+				   <div class="col-md-6 col-sm-12 col-xs-12">
+					   <div class="policy">
+						   <li>Privacy Policy</li>
+						   <li>Terms of Service</li>
+					   </div>
+				   </div>
+				   
+				   <div class="col-md-6 col-sm-12 col-xs-12">
+					   <div class="images">
+						   
+						   
+						   <!--------------------------
+                           <img src="images/mastercard.jpg">
+						   <img src="images/mpsea.jpg">
+						   <img src="images/tdbank.jpg">
+						   
+						   ---------------------->
+					   </div>
+				   </div>
+			   </div>
+			   
+			   <div class="row">
+				   
+				   <div class="col-md-6 col-sm-12 col-xs-12">
+					   
+					   <div class="address">
+					    <p>Address: Uganda-Muzza Complex 2nd Floor, Suite s8-s9 Plot 39, Jinja Road, mukono, P.O.Box 286, Kampala, Uganda</p>
+					   
+						<p>Address: Canada, The Heathview 2504 320 Tweedsmuir Avenue M5P 2Y3 Toronto, Ontario Canada, Telephone: +1-647-377-8463, Email: info@paytimeafrica.com</p>
+					   
+					   <h3>Copyright @2019 - PayTime Africa Limited</h3>
+						</div>
+				
+				   </div>   
+				   <div class="col-md-6 col-sm-12 col-xs-12"></div>
+			   </div>
+			   
+		   </div>
+	   </div>
+</section>
  
  
  
